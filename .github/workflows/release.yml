@@ -2,7 +2,7 @@ name: "release"
 
 on:
   workflow_run:
-    workflows: ["Indigenous connect frontend CI"]
+    workflows: ["build"]
     types:
       - completed 
     branches:
