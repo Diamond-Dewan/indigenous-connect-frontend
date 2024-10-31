@@ -1,7 +1,10 @@
 name: "release"
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Indigenous connect frontend CI"]
+    types:
+      - completed 
     branches:
       - master
 
