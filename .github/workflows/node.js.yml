@@ -2,7 +2,7 @@ name: Indigenous connect frontend CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "none" ]
  
 
 jobs:
