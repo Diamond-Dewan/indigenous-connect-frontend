@@ -1,15 +1,15 @@
-import TopCards from './components/TopCards';
-import VisitChart from './components/VisitChart';
-import CountryVisitChart from './components/CountryChart';
+"use client"
+
 
 export default async function AdminDashboard() {
     return (
         <div>
-            <TopCards />
+            Admin dashboard
+            {/* <TopCards />
             <div className='flex flex-col md:flex-row justify-between gap-4 md:gap-6 mt-6'>
                 <VisitChart />
                 <CountryVisitChart />
-            </div>
+            </div> */}
         </div>
     )
 }
